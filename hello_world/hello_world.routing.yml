@@ -4,3 +4,9 @@ hello_world:
         _controller: Drupal\hello_world\Controller\HelloWorldController::hello
   requirements:
         _permission: 'access content'
+  path: /goodbye/world
+  defaults:
+        _controller: Drupal\hello_world\Controller\HelloWorldController::goodbye
+  requirements:
+        _permission: 'access content'
+  
